@@ -1,0 +1,34 @@
+{
+    "name": "DC motor",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "motorbit": "github:tinkertanker/pxt-motorbit#80a985755d1bdaa58dcd44efa425e7370399c523",
+        "motobit": "github:sparkfun/pxt-moto-bit#v0.0.4",
+        "iBIT": "github:emwta/pxt-ibit#v4.0.10",
+        "cubebit": "github:4tronix/cubebit#v1.0.1",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.0.10",
+        "tag": "v2.0.10",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/9b7b5f1d10f133bc9c14ef24e1b8a67333f12c29",
+        "target": "5.0.12",
+        "pxt": "5.15.13",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
